@@ -13,19 +13,11 @@
         $user['email'];
         $user['senha'];
    }
-    $autentica = 0;
    if ($user['email'] === $_POST['email'] && $user['senha'] === $_POST['senha']){
-    $autentica = true;
+    $_SESSION['autenticado'] = "sim";
+    header('location:home.php');
    }
    else{
-       $autentica = false;
-   }
-
-   if ($autentica == true) {
-       $_SESSION['autenticado'] = "sim";
-       header('location:home.php');
-   }
-   else {
        $_SESSION['autenticado'] = "nao";
        header('location:index.php?login=erro');
        var_dump($autentica);

@@ -2,7 +2,7 @@
     class Conexao {
      private $dns = "mysql:host=localhost;dbname=secretletters";
      private $usuario = "andersonarorjdev";
-     private $senha = "slipknot#10J";
+     private $senha = "passwordhiddenpass@20";
 
      public function conectar(){
             try{
