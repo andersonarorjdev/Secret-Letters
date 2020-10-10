@@ -110,18 +110,23 @@ session_start();
             </div>
             <div class="card-body">
               <div class="row">
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-3 d-flex justify-content-center">
                 <a href="./backend/enviaemail.php"><img src="./images/logos/mandaremail.png" width="70" height="70"></a>
                 <p>Mandar email</p>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-3 d-flex justify-content-center">
                   <a href="#exampleModal"  data-toggle="modal" >
                     <img src="./images/logos/dicas.png" width="70" height="70">
                   </a>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-3 d-flex justify-content-center">
                   <a href="index.php">
                     <img src="./images/logos/logout.png" width="70" height="70">
+                  </a>
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                  <a href="./secrets/app_lista_tarefas_public/index.php">
+                    <img src="./images/logos/diario.png" width="70" height="70">
                   </a>
                 </div>
               </div>

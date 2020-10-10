@@ -1,0 +1,85 @@
+/*Componentes gerais*/
+.barradenavegacao{
+   background-color: black;
+   height: 10vh;
+} 
+
+.fundo{
+    background-color: #f8dcdb;
+    height:90vh;
+}
+
+.instrucao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixa-instrucao{
+    width:50vw;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto-instrucao{
+    font-size:16px;
+    padding-top: 13px;
+}
+
+/* Fim dos componentes gerais */
+
+
+
+
+/* Caixa de login */
+
+.caixa-login{
+   position:relative;
+   top:20px;
+}
+
+.cardlogin{
+    border: 4px double purple;
+    border-radius: 40px;
+    background-color: black;
+    padding-top:30px;
+    padding-bottom:40px;
+   
+}
+
+.campo{
+    width: 100%;
+    border: 3px solid purple;
+    border-radius: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+/* Fim da caixa de login */
+
+/* Responsividade */
+
+/* Menor breakpoint*/
+@media (max-width:378px){
+
+    #texto-instrucao{
+        font-size: clamp(1em, 1em + 1vw, 1.5em);
+        padding-top: 13px;
+    }
+
+    .instrucao{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .caixa-instrucao{
+        width:50vw;
+        border: 1px solid black;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
