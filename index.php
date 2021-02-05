@@ -49,6 +49,8 @@
                   ?>
                   <div class="text-danger">Usuario ou senha invalidos</div>
                   <?php 
+                    }else{
+                      header('location:home.php');
                     }
                   ?>
                 </div>

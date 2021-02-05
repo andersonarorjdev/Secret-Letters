@@ -4,10 +4,7 @@
    print_r($_POST['email']);
    print_r($_POST['senha']);
 
-    $usuarioapp = array(
-        array('email'=>"anderson@gmail.com", 'senha'=>'12345'),
-       // array('email'=>'usuarioteste@gmail.com','senha'=>'123456'),
-    );
+    $usuarioapp = array('email'=>'usuarioteste@gmail.com','senha'=>'123456');
 
    foreach ($usuarioapp as $user){
         $user['email'];
